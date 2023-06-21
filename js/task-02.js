@@ -13,8 +13,6 @@ const liEl = document.createElement("li");
 
 list.append(liEl);
 
-liEl.innerHTML = ingredients.map((ingredient) => `${ingredient}`);
-
 liEl.classList.add("item");
 
 console.log(list);
